@@ -8,8 +8,6 @@
 </head>
 <body>
 
-    Bonjour {{ $user }}
-    <br>
-    Votre mot de passe est {{ $mdp }}
+Addition des deux nombres {{ $chiffre1 }} et {{ $chiffre2 }} : {{ $chiffre1 }} + {{ $chiffre2 }} = {{ $add }}
 </body>
 </html>

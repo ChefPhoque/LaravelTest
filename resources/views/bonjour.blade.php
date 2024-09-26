@@ -8,8 +8,8 @@
 </head>
 <body>
 
-    Bonjour {{ $user }}
-    <br>
-    Votre mot de passe est {{ $mdp }}
+Bonjour {{ $username }}
+
 </body>
 </html>
+

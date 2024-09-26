@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc; /* Couleur de fond gris clair */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px; /* Largeur maximale du conteneur */
+    margin: 50px auto; /* Centrage vertical et horizontal */
+    padding: 20px; /* Espacement interne */
+    background-color: #ffffff; /* Couleur de fond blanche */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    border-radius: 8px; /* Coins arrondis */
+}
+
+.title {
+    text-align: center; /* Alignement centré */
+    font-size: 24px; /* Taille du texte */
+    color: #2d3748; /* Couleur du texte */
+}
+
+.info {
+    margin-top: 20px; /* Espacement supérieur */
+    font-size: 18px; /* Taille du texte des informations */
+    color: #4a5568; /* Couleur des informations */
+}
+
+.jacket-image {
+    width: 50px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour garder le ratio */
+    display: block; /* Affichage en bloc */
+    margin: 20px auto; /* Centrage horizontal */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+.back-form {
+    text-align: center; /* Alignement centré pour le formulaire */
+    margin-top: 30px; /* Espacement supérieur */
+}
+
+.back-button {
+    background-color: #4299e1; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+}
+
+.back-button:hover {
+    background-color: #3182ce; /* Couleur de fond au survol */
+}
+
